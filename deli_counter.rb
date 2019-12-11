@@ -12,8 +12,8 @@ def line(katz_deli)
   # end
   
   if katz_deli.length > 0 
-    katz_deli.each_with_index.map { |person, index| "#{index + 1}. #{person}" }
-    puts "The line is currently: #{katz_deli.join(" ")}"
+    new_line = katz_deli.each_with_index.map { |person, index| "#{index + 1}. #{person}" }
+    puts "The line is currently: #{new_line.join(" ")}"
   else
     puts "The line is currently empty."
   end
