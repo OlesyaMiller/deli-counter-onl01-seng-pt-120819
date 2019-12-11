@@ -1,6 +1,6 @@
 require 'pry'
 
-def line(new_line)
+def line(katz_deli)
   
   #katz_deli = []
  
@@ -11,7 +11,12 @@ def line(new_line)
   #   puts "The line is currently empty."
   # end
   
-  
+  if katz_deli.length > 0 
+    katz_deli.each_with_index { |person, index| katz_deli << "#{index + 1}. #{person}" }
+    puts "The line is currently: #{katz_deli.join(" ")}"
+  else
+    puts "The line is currently empty."
+  end
   
 end 
 
