@@ -15,7 +15,7 @@ end
 
 def take_a_number(katz_deli, name)
   katz_deli << name 
-  puts "#{katz_deli.index[name] + 1}. #{katz_deli[-1]}"
+  puts "#{katz_deli.index(name) + 1}. #{katz_deli[-1]}"
 end
   
   
