@@ -13,7 +13,7 @@ def line(new_line)
 end 
 
 
-def take_a_number(current_line, name)
+def take_a_number(katz_deli, name)
   
 end
   
